@@ -5,6 +5,7 @@ class conexion
     private $connect;
     private $user = "root";
     private $pass = "20624101";
+
     private $db   = "escuela_test";
     private $host = "localhost";
 

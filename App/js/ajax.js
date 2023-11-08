@@ -49,6 +49,8 @@ const getData = function () {
               <td>${element.nombre}</td>
               <td>${element.apellido}</td>
               <td>${element.documento}</td>
+              <td><button type="button" onclick='editarData(${element.id})' class="btn btn-primary">Edit</button></td>
+              <td><button type="button" onclick='eliminarData(${element.id})' "class="btn btn-danger">Delete</button></td>
             </tr>
           `;
         });
@@ -71,3 +73,7 @@ const getData = function () {
 };
 
 getData();
+
+const eliminarData = function (id) {
+  alert(id);
+};
